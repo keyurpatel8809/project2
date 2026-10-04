@@ -16,7 +16,7 @@
 | Spring Boot | Know the words, cannot defend them under questioning | Built and deployed a 3-service banking system with Kafka, JWT, tests, Docker |
 | DSA | Starting from zero on TUF+ | ~150 problems solved pattern-wise, can do medium problems in 25 min |
 | SQL / DB | Basics | Window functions, indexing, isolation levels, Redis, Mongo, can tune a slow query |
-| Frontend | Some React/Angular exposure | React + TypeScript app with auth, tests, deployed |
+| Frontend | Some Angular/React exposure | Angular + TypeScript app with auth, RxJS, tests, deployed |
 | Cloud / DevOps | Theory | CI/CD pipeline, Docker, k8s manifests, app running on AWS free tier |
 | AI | Interest | RAG service with Spring AI + pgvector + Ollama, can explain tokens, embeddings, tool calling |
 | Interviews | Fail at the probing stage | 8 STAR stories, every resume bullet backed by code you wrote |
@@ -33,6 +33,14 @@ So this program has one rule: **every bullet on your resume must become true thr
 or it comes off the resume.** By Week 24 you will have two deployed projects that mirror the resume
 (a banking microservices system and an AI policy assistant), plus a STAR story for each bullet. At that
 point the resume is defensible. Until then, treat the resume as the target, not the claim.
+
+### Because you are already getting interviews (decided 2026-10-04)
+
+You are converting resumes into interviews and losing them in the room. That changes three things:
+
+1. **Resume defense starts in Week 2, not Week 21.** Every Saturday opens with a 2-minute "defend one resume bullet" drill.
+2. **Checkpoint mocks** on the Saturdays of Weeks 4, 8, 12, 16 and 20: 30 minutes, recorded, technical plus two behavioral questions.
+3. **Every real interview feeds the plan.** Fill in `interviews/TEMPLATE.md` the same day. Each missed question becomes a weak spot, and your next two lessons open with it. Keep applying while you prepare; the interviews are free mock exams.
 
 ---
 
@@ -63,7 +71,7 @@ Every lesson file in `days/` has exactly these four blocks, plus an XP line at t
 | **Boss fights** | Every Saturday. A mock question you must answer out loud in under 3 minutes, plus a project milestone. |
 | **Badges** | First TUF+ medium solved · First deployed service · First mock interview survived · OCP Java 21 passed · 30-day streak |
 
-Track all of this in `progress.md`. If automation is approved (see `AUTOMATION-PROPOSAL.md`), the tracker updates itself.
+Track all of this in `progress.md`. I update it for you each time you report a finished day (see `DELIVERY-PROTOCOL.md`).
 
 ---
 
@@ -76,7 +84,7 @@ Track all of this in `progress.md`. If automation is approved (see `AUTOMATION-P
 | Wed | Phase track | Theory + example + task |
 | Thu | **DSA on TUF+** | One pattern, two problems |
 | Fri | Phase track | Theory + example + task |
-| Sat | **Boss fight** | 10-min mock question out loud + 25-min project milestone (extend to 60 min if you can) |
+| Sat | **Boss fight** | 2-min "defend one resume bullet" + 10-min mock question out loud + 25-min project milestone (extend to 60 min if you can) |
 | Sun | Rest / AI Lab | Rest, or an optional 30-min AI Lab or certification study block |
 
 DSA runs on TUF+ every Tuesday and Thursday for all 24 weeks. The exact TUF+ step for each week is in `curriculum.md`.
@@ -90,7 +98,7 @@ DSA runs on TUF+ every Tuesday and Thursday for all 24 weeks. The exact TUF+ ste
 | 1 | 1–4 | **Java Core Reloaded** | "Explain HashMap internals, streams, Java 21 features, threads, GC" |
 | 2 | 5–8 | **Spring Boot & Microservices** | "Walk me through a request, transactions, JWT, Kafka, circuit breakers, tests" |
 | 3 | 9–12 | **Data + Design** | "Tune this query, explain isolation levels, apply SOLID, design a payment system" |
-| 4 | 13–16 | **Frontend (React + TypeScript)** | "Explain hooks, event loop, auth on the client, test a component" |
+| 4 | 13–16 | **Frontend (Angular + TypeScript)** | "Explain RxJS, change detection, DI, guards and interceptors, test a component" |
 | 5 | 17–20 | **Cloud, DevOps & AI Engineering** | "Show your CI/CD, k8s manifests, AWS deploy, RAG pipeline with Spring AI" |
 | 6 | 21–24 | **Interview Mode** | "Here are my STAR stories, mock results, and two live projects" |
 
@@ -110,7 +118,7 @@ A small banking backend that mirrors the CIBC bullets.
 - **Services:** `account-service`, `payment-service`, `audit-service` (Kafka consumer)
 - **Stack:** Java 21, Spring Boot 3, Spring Data JPA, PostgreSQL, Kafka, Redis, Spring Security (JWT), Flyway, Testcontainers, Docker Compose, GitHub Actions, Kubernetes manifests, AWS free tier deploy
 - **Features that match the resume:** payments and transfers, transaction validation rules, audit trail, idempotency keys, optimistic locking, roles, Actuator health, structured logs, RCA playbook in the README
-- **Frontend (Weeks 13–16):** `ledgerlite-ui` in React + TypeScript with login, accounts, transaction search
+- **Frontend (Weeks 13–16):** `ledgerlite-ui` in Angular + TypeScript with login, guarded routes, accounts, transaction search
 
 ### Project 2 · PolicyPilot (Weeks 19–20, polish in 21)
 An AI assistant over banking policy documents, mirroring the Ollama bullet.
@@ -169,4 +177,5 @@ Use **Java** as your TUF+ language setting throughout, so the DSA practice doubl
 | `days/day-001.md` | Sample daily lesson in the exact format every future day will follow |
 | `progress.md` | XP, level, streak, completed days, weak spots |
 | `resume-defense.md` | Each resume bullet → skill → proof project → target week |
-| `AUTOMATION-PROPOSAL.md` | Draft of the daily automation. Nothing runs until you approve it. |
+| `DELIVERY-PROTOCOL.md` | How lessons are delivered: on demand in this chat, no scheduler (your decision) |
+| `interviews/TEMPLATE.md` | Debrief form to fill after every real interview |

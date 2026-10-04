@@ -2,6 +2,12 @@
 
 Rhythm every week: **Mon / Wed / Fri** = phase track · **Tue / Thu** = DSA on TUF+ (one pattern, two problems) · **Sat** = boss fight + project milestone · **Sun** = rest or optional AI Lab / certification block.
 
+**Because you are already interviewing (decided 2026-10-04):**
+- From Week 2, every Saturday boss fight opens with a 2-minute **"defend one resume bullet"** drill, rotating through `resume-defense.md`.
+- Saturdays of Weeks 4, 8, 12, 16 and 20 are **checkpoint mocks**: 30 minutes, recorded, covering everything so far plus two behavioral questions.
+- After every real interview, fill in `interviews/TEMPLATE.md`. Each question you missed becomes a weak spot, and the next two lessons open with it.
+- Front end is **Angular + TypeScript** as primary; React stays at conversational level (Week 16).
+
 Legend for TUF+: "A2Z Step n" refers to the Strivers A2Z DSA sheet steps inside TUF+. "Beginner Problems" is the TUF+ warm-up track. Use Java as the language.
 
 ---
@@ -41,15 +47,14 @@ Legend for TUF+: "A2Z Step n" refers to the Strivers A2Z DSA sheet steps inside 
 
 ---
 
-## Phase 4 · Frontend: React + TypeScript (Weeks 13–16)
+## Phase 4 · Frontend: Angular + TypeScript (Weeks 13–16)
 
 | Wk | Mon | Wed | Fri | TUF+ (Tue/Thu) | Sat boss fight | Sat project milestone |
 |---|---|---|---|---|---|---|
-| 13 | JavaScript for interviews: closures, `this`, event loop, promises, `async`/`await`, ES6+ | TypeScript essentials: types, interfaces, generics, utility types, narrowing | React fundamentals: components, props, state, JSX, rendering model | A2Z Step 13: Binary Trees (traversals, height, diameter) | "Predict the output order of this setTimeout / promise / sync code, then explain the event loop" | Create `ledgerlite-ui` (Vite + React + TS), layout, API client with typed DTOs |
-| 14 | Hooks: `useState`, `useEffect`, `useMemo`, `useCallback`, `useRef`, custom hooks, dependency array bugs | Data fetching: loading/error states, cancellation, React Query basics | Routing, forms, validation, controlled vs uncontrolled | A2Z Step 13: Binary Trees (views, LCA, construction) | "Build a searchable, sortable transactions table live in 20 minutes" | Accounts list + transaction history pages wired to the API |
-| 15 | State management: Context vs Redux Toolkit vs Zustand, and when each is justified | Auth on the client: JWT storage trade-offs, protected routes, interceptors, refresh | Testing: Jest + React Testing Library, what to test and what not to | A2Z Step 14: Binary Search Trees | React mock: 15 rapid-fire questions | Login + protected routes + 5 component tests |
-| 16 | Performance: `memo`, lazy loading, code splitting, keys, re-render debugging with the Profiler | Angular at conversational level: components, services, DI, RxJS basics, how it differs from React (for bank job descriptions) | UI polish, accessibility basics, responsive layout, deploy to Vercel/Netlify | A2Z Step 15: Graphs I (BFS, DFS, connected components) | Full-stack mock: "Walk me through one feature end to end, browser to database" | UI deployed and connected to the backend; demo GIF in README |
-
+| 13 | JavaScript for interviews: closures, `this`, event loop, promises, `async`/`await`, ES6+ | TypeScript essentials: types, interfaces, generics, utility types, narrowing, decorators (Angular relies on them) | Angular fundamentals: standalone components, templates, data binding, directives, pipes, component lifecycle hooks | A2Z Step 13: Binary Trees (traversals, height, diameter) | "Predict the output order of this setTimeout / promise / sync code, then explain the event loop" | Create `ledgerlite-ui` with the Angular CLI (Angular 18+, standalone), layout shell, typed API models |
+| 14 | Services and DI: providers, injection tokens, `providedIn`, `HttpClient`, interceptors (correlation ID, error handling) | RxJS: Observables vs Promises, `pipe`, `map`/`switchMap`/`mergeMap`/`catchError`, Subjects, unsubscribing, the `async` pipe | Routing: lazy-loaded routes, guards, resolvers; reactive forms and custom validators | A2Z Step 13: Binary Trees (views, LCA, construction) | "Build a searchable, sortable transactions table with a debounced search box, live, in 20 minutes" | Accounts list + transaction history pages wired to the API through a service |
+| 15 | State management: service-with-a-Subject vs Signals vs NgRx, and when each is justified | Auth on the client: JWT storage trade-offs, auth interceptor, route guards, token refresh | Testing: Jasmine/Karma or Jest, `TestBed`, component and service tests, mocking `HttpClient` | A2Z Step 14: Binary Search Trees | Angular mock: 15 rapid-fire questions | Login + guarded routes + 5 tests |
+| 16 | Change detection and performance: zone.js, `OnPush`, Signals, `trackBy`, lazy loading, bundle size | React at conversational level: components, hooks, state, how it differs from Angular (for job descriptions that list React) | UI polish, accessibility basics, responsive layout, deploy to Vercel, Netlify or Firebase Hosting | A2Z Step 15: Graphs I (BFS, DFS, connected components) | Checkpoint mock + "Walk me through one feature end to end, browser to database" | UI deployed and connected to the backend; demo GIF in README |
 ---
 
 ## Phase 5 · Cloud, DevOps & AI Engineering (Weeks 17–20)
@@ -68,7 +73,7 @@ Legend for TUF+: "A2Z Step n" refers to the Strivers A2Z DSA sheet steps inside 
 | Wk | Mon | Wed | Fri | TUF+ (Tue/Thu) | Sat boss fight | Sat project milestone |
 |---|---|---|---|---|---|---|
 | 21 | Resume defense I: rewrite each bullet in STAR form with a link to the proof (see `resume-defense.md`) | Behavioral bank: 8 STAR stories (conflict, failure, ownership, production incident, learning fast, deadline, disagreement, mentoring) | Canadian job-search system: LinkedIn profile, referral outreach script, application tracker, 10 applications/week | A2Z Step 17: Tries + Quick Revision sheet | Full behavioral mock, recorded and reviewed | Polish both READMEs; record a 2-minute demo video per project |
-| 22 | Java + Spring rapid-fire: 50 questions | SQL + database rapid-fire: 30 questions | React + JavaScript rapid-fire: 30 questions | TUF+ SDE Sheet (pattern-wise) revision | Technical mock, 45 minutes, using a TUF+ mock test | Fix anything a reviewer would flag in the code |
+| 22 | Java + Spring rapid-fire: 50 questions | SQL + database rapid-fire: 30 questions | Angular + JavaScript rapid-fire: 30 questions | TUF+ SDE Sheet (pattern-wise) revision | Technical mock, 45 minutes, using a TUF+ mock test | Fix anything a reviewer would flag in the code |
 | 23 | System design mock 1: payment system | LLD mock: Parking Lot or BookMyShow | System design mock 2: notification service or rate limiter | TUF+ Company Questions Pass (banks and consultancies) | Full loop simulation: 1 DSA + 1 design + behavioral, 90 minutes | Open-source PR submitted (docs or test) to Spring AI / LangChain4j / Testcontainers |
 | 24 | Weak-spot repair I (from `progress.md`) | Weak-spot repair II | Salary negotiation and offer evaluation in Canada; contract vs full-time | Two timed TUF+ contests | Graduation boss: 60-minute full mock. Pass = Interview Hero | Final READMEs, LinkedIn "Projects" section updated |
 

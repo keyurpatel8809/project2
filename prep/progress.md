@@ -6,8 +6,8 @@
 
 | Metric | Value |
 |---|---|
-| Current day | 0 (not started) |
-| Current week / phase | Week 0 · Setup |
+| Current day | 0 · scheduled for Sun 5 Oct 2026 |
+| Current week / phase | Week 0 · Setup (Week 1 starts Mon 6 Oct 2026) |
 | XP | 0 |
 | Level | 1 · Novice |
 | Streak (days) | 0 |
@@ -34,6 +34,12 @@
 - [ ] 🏅 AWS AI Practitioner passed
 - [ ] 🏆 Graduation boss defeated (Week 24)
 
+## Real interviews (one row per interview; debrief in `interviews/`)
+
+| Date | Company / role | Round | Result | Missed questions → weak spots |
+|---|---|---|---|---|
+| | | | | |
+
 ## Weak spots (add from every drill you got wrong; remove when you get it right twice)
 
 | Topic | Added | Cleared |
@@ -44,5 +50,5 @@
 
 | Day | Date | Topic | Task done | Drill score | XP | Notes |
 |---|---|---|---|---|---|---|
-| 0 | | Setup + baseline | ☐ | | | |
-| 1 | | How Java actually runs | ☐ | /3 | | |
+| 0 | Sun 5 Oct 2026 | Setup + baseline | ☐ | | | |
+| 1 | Mon 6 Oct 2026 | How Java actually runs | ☐ | /3 | | |

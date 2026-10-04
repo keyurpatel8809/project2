@@ -1,6 +1,6 @@
 # Day 0 · Setup and Baseline (do this before Day 1)
 
-**Time:** 40 minutes (one-time) · **XP:** 10 for setup + 10 for the baseline quiz
+**Date:** Sunday 5 October 2026 · **Time:** 40 minutes (one-time) · **XP:** 10 for setup + 10 for the baseline quiz
 
 ## Part A · Set up your tools (20 min)
 

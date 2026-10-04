@@ -6,7 +6,7 @@ Status: ⬜ not yet · 🟨 can explain · 🟩 explained + built + story ready.
 | # | Resume claim | What an interviewer will probe | Proof project / artifact | Built in | Status |
 |---|---|---|---|---|---|
 | 1 | Microservices banking apps with Java, Spring Boot, REST (payments, accounts, transactions) | "Draw your service boundaries. How do services talk? What happens on a failed transfer?" | LedgerLite: account-service, payment-service, audit-service | Weeks 5–8 | ⬜ |
-| 2 | Responsive frontend in Angular and React consuming secure REST APIs | "How do you handle the JWT on the client? How do you avoid re-renders?" | ledgerlite-ui (React + TS); Angular at conversational level | Weeks 13–16 | ⬜ |
+| 2 | Responsive frontend in Angular and React consuming secure REST APIs | "How do you handle the JWT on the client? Explain change detection. What is an interceptor?" | ledgerlite-ui (Angular + TS); React at conversational level | Weeks 13–16 | ⬜ |
 | 3 | Oracle and MySQL complex SQL + performance tuning; MongoDB for document storage | "Here is a slow query. What do you check first?" "Why Mongo for audit?" | Flyway migrations, `EXPLAIN` in README, Mongo audit store | Weeks 9–10 | ⬜ |
 | 4 | Credit and operational risk: transaction validation logic, audit trails, secure controls | "Give me three validation rules you implemented and how you tested them." | Validation rules + audit-service + Cucumber-style scenarios | Weeks 5–8 | ⬜ |
 | 5 | Production support: incidents, RCA, bug fixes, performance optimisation | "Walk me through an incident. What was the root cause? What changed afterwards?" | Incident playbook + one real self-inflicted outage written up as an RCA in the README | Week 8 | ⬜ |
