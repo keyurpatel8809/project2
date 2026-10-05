@@ -1,6 +1,6 @@
 # Day 0 · Setup and Baseline (do this before Day 1)
 
-**Date:** Sunday 5 October 2026 · **Time:** 40 minutes (one-time) · **XP:** 10 for setup + 10 for the baseline quiz
+**Date:** Monday 5 October 2026 · **Time:** 40 minutes (one-time) · **XP:** 10 for setup + 10 for the baseline quiz
 
 ## Part A · Set up your tools (20 min)
 
@@ -9,7 +9,7 @@
 - [ ] Install **Git**, set your name and email, create a **GitHub** repo named `ledgerlite` (public, empty).
 - [ ] Install **Docker Desktop** (needed from Week 6 for Testcontainers and Week 8 for Kafka).
 - [ ] Install **Postman** or **Bruno** for API testing.
-- [ ] On **TUF+**: set the language to **Java**. Open **Planly** and create a custom plan: 2 problems on Tuesdays and Thursdays, following the A2Z sheet order.
+- [ ] On **TUF+**: set the language to **Java**. Open **Planly** and set it up exactly as described in `tuf-plus-plan.md` Part 1 (deadline 21 Mar 2027, beginner, 30–45 min, Java). Add tomorrow's tasks to the Daily Planner.
 - [ ] Create a free **start.spring.io** project later today if time permits (Week 1 Saturday does this properly).
 - [ ] Bookmark this repo's `prep/` folder and `progress.md`.
 
@@ -73,4 +73,4 @@ Answer each in one or two sentences. Mark **✅ confident**, **🟡 vague**, or 
 Record: `Baseline: ✅ __ / 🟡 __ / ❌ __` in `progress.md`, plus the three questions that embarrassed you most. Those become your first "weak spots".
 
 ---
-**XP earned today:** +20 · **Streak:** 1 · Tomorrow is **Day 1: How Java actually runs**.
+**XP earned today:** +20 · **Streak:** 1 · Tomorrow (Tue 6 Oct) is **Day 1: your first TUF+ session**, Java Basics module + Patterns 1 and 4.

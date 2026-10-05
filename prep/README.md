@@ -1,6 +1,6 @@
 # Java Full Stack Interview Prep: Zero to Hero in 35 Minutes a Day
 
-**Owner:** Keyur Patel · **Started:** October 2026 · **Daily budget:** 30–40 min · **Length:** 24 weeks + maintenance mode
+**Owner:** Keyur Patel · **Day 0:** Mon 5 Oct 2026 · **Week 24 ends:** Sun 21 Mar 2027 · **Daily budget:** 30–40 min · **Length:** 24 weeks + maintenance mode
 
 > This folder is the single source of truth for the prep program. The daily lessons live in `days/`,
 > the week-by-week syllabus is in `curriculum.md`, your score and streak are in `progress.md`, and the
@@ -161,7 +161,7 @@ Your TUF+ subscription is used for exactly four things:
 1. **DSA (Tue/Thu, all 24 weeks):** follow the A2Z sheet step named in `curriculum.md`. Watch the editorial only after a 20-minute attempt.
 2. **Core subjects (Phase 3):** the **DBMS Pass + SQL problems** in Weeks 9–10, and the **OOPs Pass + Low-Level Design Pass** in Weeks 10–11.
 3. **Mocks (Phase 6):** topic-wise **mock tests**, the **Company Questions Pass** for Canadian banks and consultancies, and the **Quick Revision** sheet.
-4. **Planly:** set a custom roadmap of 2 problems per DSA day so the platform's reminders match this plan.
+4. **Planly:** set up once as described in `tuf-plus-plan.md`, which also lists the exact problems for all 48 TUF+ days.
 
 Use **Java** as your TUF+ language setting throughout, so the DSA practice doubles as Java practice.
 
@@ -173,8 +173,10 @@ Use **Java** as your TUF+ language setting throughout, so the DSA practice doubl
 |---|---|
 | `README.md` | This guide |
 | `curriculum.md` | Week-by-week syllabus with TUF+ steps, boss fights, project milestones |
+| `tuf-plus-plan.md` | Planly setup and the exact TUF+ problems for every Tuesday and Thursday |
 | `days/day-000-setup-and-baseline.md` | Environment setup + baseline quiz (do this first) |
-| `days/day-001.md` | Sample daily lesson in the exact format every future day will follow |
+| `days/day-001.md` | Day 1 (Tue 6 Oct): first TUF+ session |
+| `days/day-002.md` | Day 2 (Wed 7 Oct): how Java actually runs |
 | `progress.md` | XP, level, streak, completed days, weak spots |
 | `resume-defense.md` | Each resume bullet → skill → proof project → target week |
 | `DELIVERY-PROTOCOL.md` | How lessons are delivered: on demand in this chat, no scheduler (your decision) |

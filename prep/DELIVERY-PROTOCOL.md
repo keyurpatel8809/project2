@@ -1,7 +1,7 @@
 # Lesson Delivery Protocol (decided 2026-10-04)
 
 **Decision:** no scheduler, no email. Lessons are delivered **on demand in this chat**. You wake Claude up, you get the next lesson.
-Day 0 is Sunday 5 October 2026. Day 1 is Monday 6 October 2026.
+Day 0 is Monday 5 October 2026 (setup, Planly, baseline). Day 1 is Tuesday 6 October 2026, a TUF+ day.
 
 ## How a day goes
 
