@@ -138,37 +138,31 @@ Track-day add-ons in Phase 3: **Week 9 Mon/Wed/Fri** three TUF+ SQL problems eac
 
 ---
 
-## Part 4 · Trimming what Planly auto-selected (decided 10 Oct 2026)
+## Part 4 · What stays in Planly (decided 10 Oct 2026)
 
-Planly generated a plan covering the whole library. Its estimate versus what this program actually spends on TUF+:
+Planly auto-selected the whole library. Keyur's decision: learn DSA, DBMS, Maths and OOPS in full depth, keep LLD, and remove only Computer Networks.
 
-| Section | Planly estimate | This program's TUF+ budget | Decision |
-|---|---|---|---|
-| DSA | 182h 31m | ~28h (48 days × 35 min) | Keep as the pool; delete **Strings (Advanced Algo)** |
-| OOPS | 18h 10m | ~4h, pulled in by specific lessons | Keep all 6 modules, watch only when a lesson names one, at 1.5× speed |
-| DBMS | 59h 5m | ~6h in Week 9 + SQL practice on Sundays | Keep 12 modules, delete 11 (list below) |
-| Computer Networks | 24h 18m | 0h | **Delete the whole section** |
-| LLD | 31h | ~8h in Weeks 10–12 and 23 | Keep all 13 modules, scheduled below |
-| **Total** | **~315h** | **~46h** | Planly's percent complete is not the scoreboard. `progress.md` is. |
+| Section | Planly estimate | Decision |
+|---|---|---|
+| DSA (all 20 modules, Maths and Strings Advanced included) | 182h 31m | **Keep in full.** The Tue/Thu schedule in Part 2 is the minimum; extra Planly problems are the Saturday re-solve pool and the Sunday optional block |
+| DBMS (all 23 modules) | 59h 5m | **Keep in full.** Week 9 track days use the modules named below; the rest are Sunday depth study after Week 9 |
+| OOPS (all 6 modules) | 18h 10m | **Keep in full.** Opened when a lesson names the module (mapping below) |
+| LLD (all 13 modules) | 31h | **Keep.** Scheduled in Weeks 10–12 and 23 (mapping below) |
+| Computer Networks | 24h 18m | **Remove the whole section** (bin icon on the section header). HTTP, REST vs SOAP, TLS and TCP basics are covered inside the Week 5 and Week 7 Spring lessons |
 
-Why Computer Networks goes: Canadian bank and consultancy Java interviews ask HTTP methods and status codes, REST vs SOAP, TLS at a conversational level, and TCP vs UDP in one sentence. All of that is covered inside the Spring REST (Week 5) and Spring Security (Week 7) lessons. A 24-hour networking course is the wrong trade for a 35-minute day.
+Reality check: everything kept is about 290 hours of TUF+ content against a program that budgets about 46 hours of TUF+ time. Planly will therefore always show the plan as behind. That is expected and not a failure. The scoreboard is `progress.md`; Planly is the library. Depth study beyond the schedule happens in the Sunday block and in maintenance mode after Week 24.
 
-### DBMS: keep or delete (use the bin icon)
+### DBMS modules used by lessons (the rest are Sunday depth study)
 
-| Delete (11) | Keep (12) and when it is used |
+| Module | Used in |
 |---|---|
-| Getting Started | Core Foundations · Week 9 Fri (ACID, keys) |
-| DBMS Foundations and Architecture | Functional Dependencies and Database Design · Week 9 Fri (normalisation) |
-| Conceptual Data Modeling | Querying Essentials · Week 9 Mon |
-| Database Design | Aggregation and Analysis · Week 9 Mon |
-| Relational Model and Formal Query Languages | SQL Joins · Week 9 Mon/Wed + Sunday SQL practice |
-| Set Operations | Subqueries · Week 9 Wed + Sunday SQL practice |
-| Data Modification and Schema Evolution | Physical Storage, Indexing, and Hashing · Week 9 Wed |
-| Query Processing and Optimization | Data Storage, Keys, and Query Optimization · Week 9 Wed |
-| Database Recovery and Durability | Query Performance · Week 9 Wed |
-| Integrity, Security, and Database Operations | Transactions and Access Control · Week 9 Fri |
-| Applied Learning and Preparation | Transactions and Concurrency Control · Week 9 Fri, Week 6 Wed (locking) |
-| | Distributed Databases, NoSQL, and Analytical Systems · Week 10 Mon |
+| Querying Essentials, Aggregation and Analysis | Week 9 Mon |
+| SQL Joins, Subqueries | Week 9 Mon/Wed + Sunday SQL practice (91 problems) |
+| Physical Storage, Indexing, and Hashing · Data Storage, Keys, and Query Optimization · Query Performance | Week 9 Wed |
+| Core Foundations · Functional Dependencies and Database Design · Transactions and Access Control · Transactions and Concurrency Control | Week 9 Fri (and Week 6 Wed for locking) |
+| Distributed Databases, NoSQL, and Analytical Systems | Week 10 Mon |
+| Database Design, Conceptual Data Modeling | Week 12 Fri (data model step of the HLD walkthrough) |
+| Applied Learning and Preparation | Week 22 Wed (SQL rapid-fire) |
 
 ### OOPS modules mapped to lessons
 
@@ -201,4 +195,4 @@ Why Computer Networks goes: Canadian bank and consultancy Java interviews ask HT
 
 ### DSA inside Planly
 
-Keep every DSA module except Strings (Advanced Algo). KMP, Z-function and Rabin-Karp are rare in bank interviews and cost 3.5 hours. Planly will keep offering problems beyond this plan's two-plus-one per day; treat the extras as the Saturday re-solve pool, never as a reason to skip the scheduled problem.
+Keep every DSA module, Maths and Strings (Advanced Algo) included. Part 2 lists the two-plus-one problems per day that must happen; anything Planly offers beyond that is the Saturday re-solve pool, never a reason to skip the scheduled problem. Strings (Advanced Algo) and the deeper DP and graph modules belong to maintenance mode after Week 24 unless a real interview asks for them earlier.
