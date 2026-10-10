@@ -135,3 +135,70 @@ Track-day add-ons in Phase 3: **Week 9 Mon/Wed/Fri** three TUF+ SQL problems eac
 3. **Java only.** Use `int[]`, `ArrayList`, `HashMap`, `Deque`, `PriorityQueue`. Every DSA day is also a Collections rehearsal.
 4. **Re-solve on Saturday.** Any problem that needed the editorial gets re-solved cold on Saturday during the boss fight warm-up.
 5. **Notes, not screenshots.** One line per problem in `progress.md`: pattern, key trick, the mistake you made.
+
+---
+
+## Part 4 · Trimming what Planly auto-selected (decided 10 Oct 2026)
+
+Planly generated a plan covering the whole library. Its estimate versus what this program actually spends on TUF+:
+
+| Section | Planly estimate | This program's TUF+ budget | Decision |
+|---|---|---|---|
+| DSA | 182h 31m | ~28h (48 days × 35 min) | Keep as the pool; delete **Strings (Advanced Algo)** |
+| OOPS | 18h 10m | ~4h, pulled in by specific lessons | Keep all 6 modules, watch only when a lesson names one, at 1.5× speed |
+| DBMS | 59h 5m | ~6h in Week 9 + SQL practice on Sundays | Keep 12 modules, delete 11 (list below) |
+| Computer Networks | 24h 18m | 0h | **Delete the whole section** |
+| LLD | 31h | ~8h in Weeks 10–12 and 23 | Keep all 13 modules, scheduled below |
+| **Total** | **~315h** | **~46h** | Planly's percent complete is not the scoreboard. `progress.md` is. |
+
+Why Computer Networks goes: Canadian bank and consultancy Java interviews ask HTTP methods and status codes, REST vs SOAP, TLS at a conversational level, and TCP vs UDP in one sentence. All of that is covered inside the Spring REST (Week 5) and Spring Security (Week 7) lessons. A 24-hour networking course is the wrong trade for a 35-minute day.
+
+### DBMS: keep or delete (use the bin icon)
+
+| Delete (11) | Keep (12) and when it is used |
+|---|---|
+| Getting Started | Core Foundations · Week 9 Fri (ACID, keys) |
+| DBMS Foundations and Architecture | Functional Dependencies and Database Design · Week 9 Fri (normalisation) |
+| Conceptual Data Modeling | Querying Essentials · Week 9 Mon |
+| Database Design | Aggregation and Analysis · Week 9 Mon |
+| Relational Model and Formal Query Languages | SQL Joins · Week 9 Mon/Wed + Sunday SQL practice |
+| Set Operations | Subqueries · Week 9 Wed + Sunday SQL practice |
+| Data Modification and Schema Evolution | Physical Storage, Indexing, and Hashing · Week 9 Wed |
+| Query Processing and Optimization | Data Storage, Keys, and Query Optimization · Week 9 Wed |
+| Database Recovery and Durability | Query Performance · Week 9 Wed |
+| Integrity, Security, and Database Operations | Transactions and Access Control · Week 9 Fri |
+| Applied Learning and Preparation | Transactions and Concurrency Control · Week 9 Fri, Week 6 Wed (locking) |
+| | Distributed Databases, NoSQL, and Analytical Systems · Week 10 Mon |
+
+### OOPS modules mapped to lessons
+
+| Module | Used in |
+|---|---|
+| Introduction to OOPS | Week 1 Fri (OOP pillars) |
+| Core Principles of OOPS | Week 1 Fri, Week 1 Sat boss fight |
+| Advance OOPS features | Week 2 Fri (generics, interfaces, default methods) |
+| Relationships and Object Behaviour | Week 10 Fri (composition vs inheritance, SOLID) |
+| Advance Programming in OOPS | Week 3 Fri (modern Java features) |
+| OOP Design and Lifecycle Management | Week 11 Mon (patterns) |
+
+### LLD modules mapped to lessons
+
+| Module | Used in |
+|---|---|
+| Introduction to LLD | Week 10 Fri |
+| Solid Principles | Week 10 Fri |
+| UML | Week 11 Fri |
+| Creational Design Patterns | Week 11 Mon |
+| Structural Design Patterns | Week 11 Wed |
+| Behavioural Design Patterns | Week 11 Wed |
+| Multithreading and Concurrency | Week 4 Mon/Wed (optional Sunday block, it overlaps the Java concurrency lessons) |
+| Dependency Injection | Week 5 Mon (Spring IoC) |
+| Exceptions and Error Handling | Week 3 Mon |
+| Best practices in LLD | Week 11 Fri |
+| Interview Problems (Part 1) | Week 11 Sat, Week 12 Sat |
+| Interview Problems (Part 2) | Week 23 Wed (LLD mock) |
+| Interview Problems (Part 3) | Maintenance mode, only if LLD rounds show up in real interviews |
+
+### DSA inside Planly
+
+Keep every DSA module except Strings (Advanced Algo). KMP, Z-function and Rabin-Karp are rare in bank interviews and cost 3.5 hours. Planly will keep offering problems beyond this plan's two-plus-one per day; treat the extras as the Saturday re-solve pool, never as a reason to skip the scheduled problem.
