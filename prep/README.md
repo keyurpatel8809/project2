@@ -1,6 +1,6 @@
 # Java Full Stack Interview Prep: Zero to Hero in 35 Minutes a Day
 
-**Owner:** Keyur Patel · **Day 0:** Mon 5 Oct 2026 · **Week 24 ends:** Sun 21 Mar 2027 · **Daily budget:** 30–40 min · **Length:** 24 weeks + maintenance mode
+**Owner:** Keyur Patel · **Day 0:** Sun 11 Oct 2026 · **Week 24 ends:** Sun 28 Mar 2027 · **Daily budget:** 30–40 min · **Length:** 24 weeks + maintenance mode
 
 > This folder is the single source of truth for the prep program. The daily lessons live in `days/`,
 > the week-by-week syllabus is in `curriculum.md`, your score and streak are in `progress.md`, and the
@@ -175,8 +175,8 @@ Use **Java** as your TUF+ language setting throughout, so the DSA practice doubl
 | `curriculum.md` | Week-by-week syllabus with TUF+ steps, boss fights, project milestones |
 | `tuf-plus-plan.md` | Planly setup and the exact TUF+ problems for every Tuesday and Thursday |
 | `days/day-000-setup-and-baseline.md` | Environment setup + baseline quiz (do this first) |
-| `days/day-001.md` | Day 1 (Tue 6 Oct): first TUF+ session |
-| `days/day-002.md` | Day 2 (Wed 7 Oct): how Java actually runs |
+| `days/day-001.md` | Day 1 (Mon 12 Oct): how Java actually runs |
+| `days/day-002.md` | Day 2 (Tue 13 Oct): first TUF+ session |
 | `progress.md` | XP, level, streak, completed days, weak spots |
 | `resume-defense.md` | Each resume bullet → skill → proof project → target week |
 | `DELIVERY-PROTOCOL.md` | How lessons are delivered: on demand in this chat, no scheduler (your decision) |

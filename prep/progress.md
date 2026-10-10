@@ -6,8 +6,8 @@
 
 | Metric | Value |
 |---|---|
-| Current day | 0 · Mon 5 Oct 2026 (today) |
-| Current week / phase | Week 1 · Phase 1 (Week 1 = Mon 5 Oct to Sun 11 Oct 2026) |
+| Current day | 0 · Sun 11 Oct 2026 |
+| Current week / phase | Week 1 · Phase 1 (Week 1 = Mon 12 Oct to Sun 18 Oct 2026) |
 | XP | 0 |
 | Level | 1 · Novice |
 | Streak (days) | 0 |
@@ -56,9 +56,10 @@
 
 | Day | Date | Topic | Task done | Drill score | XP | Notes |
 |---|---|---|---|---|---|---|
-| 0 | Mon 5 Oct 2026 | Setup + TUF+ Planly + baseline | ☐ | | | |
-| 1 | Tue 6 Oct 2026 | TUF+: Java Basics + Patterns 1, 4 (stretch 9) | ☐ | /3 | | |
-| 2 | Wed 7 Oct 2026 | How Java actually runs | ☐ | /3 | | |
-| 3 | Thu 8 Oct 2026 | TUF+: basic maths (count digits, reverse, palindrome) | ☐ | /3 | | |
-| 4 | Fri 9 Oct 2026 | OOP pillars with code | ☐ | /3 | | |
-| 5 | Sat 10 Oct 2026 | Boss fight: equals/hashCode + create ledgerlite repo | ☐ | | | |
+| 0 | Sun 11 Oct 2026 | Setup + baseline (Planly done 10 Oct) | ☐ | | | |
+| 1 | Mon 12 Oct 2026 | How Java actually runs | ☐ | /3 | | |
+| 2 | Tue 13 Oct 2026 | TUF+: Java Basics + Patterns 1, 4 (stretch 9) | ☐ | /3 | | |
+| 3 | Wed 14 Oct 2026 | OOP pillars with code | ☐ | /3 | | |
+| 4 | Thu 15 Oct 2026 | TUF+: basic maths (count digits, reverse, palindrome) | ☐ | /3 | | |
+| 5 | Fri 16 Oct 2026 | Strings: immutability, pool, StringBuilder, equals/hashCode | ☐ | /3 | | |
+| 6 | Sat 17 Oct 2026 | Boss fight: equals/hashCode + create ledgerlite repo | ☐ | | | |
