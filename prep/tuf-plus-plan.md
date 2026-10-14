@@ -136,6 +136,8 @@ Track-day add-ons in Phase 3: **Week 9 Mon/Wed/Fri** three TUF+ SQL problems eac
 4. **Re-solve on Saturday.** Any problem that needed the editorial gets re-solved cold on Saturday during the boss fight warm-up.
 5. **Notes, not screenshots.** One line per problem in `progress.md`: pattern, key trick, the mistake you made.
 
+6. **Read first, watch last (decided 14 Oct 2026).** Planly's hour estimates are video time. On a problem page, use the written **Editorial** tab (brute → better → optimal with code) instead of the video; on a theory lesson, use the **Notes / article** view and the free article at takeuforward.org for the same topic. Mark the item complete with its checkbox, which Planly counts the same as watching. Watch a video only in three cases: the first problem of a new pattern (sliding window, DP, graphs), a problem you failed twice, or a Saturday re-solve that is still stuck. When you do watch, 1.5× to 2× speed and jump to the optimal approach.
+
 ---
 
 ## Part 4 · What stays in Planly (decided 10 Oct 2026)
