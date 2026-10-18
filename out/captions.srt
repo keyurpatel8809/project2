@@ -1,0 +1,199 @@
+1
+00:00:00,600 --> 00:00:03,050
+Want to remove something from your database?
+
+2
+00:00:03,300 --> 00:00:06,388
+These two commands can leave
+you with very different results.
+
+3
+00:00:06,638 --> 00:00:07,962
+DELETE… and DROP.
+
+4
+00:00:08,300 --> 00:00:10,924
+One of them keeps your
+table. The other one doesn't.
+
+5
+00:00:11,200 --> 00:00:12,756
+Let's see which is which.
+
+6
+00:00:13,600 --> 00:00:15,434
+Here's a small Employees table.
+
+7
+00:00:15,800 --> 00:00:21,500
+First, CREATE TABLE builds the structure:
+three columns — id, name, and department.
+
+8
+00:00:21,900 --> 00:00:24,744
+Think of it as an empty
+cabinet with labeled slots.
+
+9
+00:00:25,000 --> 00:00:29,052
+Then INSERT adds the rows: four
+employees, two of them in Sales.
+
+10
+00:00:29,302 --> 00:00:34,062
+Two separate things, then: the table's
+structure, and the rows stored inside it.
+
+11
+00:00:34,500 --> 00:00:36,961
+Let's remove only the Sales employees.
+
+12
+00:00:37,211 --> 00:00:40,578
+DELETE FROM Employees, WHERE
+department equals 'Sales'.
+
+13
+00:00:40,828 --> 00:00:42,616
+The WHERE clause is the filter.
+
+14
+00:00:43,000 --> 00:00:45,415
+The database checks each row's department…
+
+15
+00:00:45,665 --> 00:00:47,546
+and marks the ones that match.
+
+16
+00:00:47,900 --> 00:00:49,409
+So which rows will go?
+
+17
+00:00:51,500 --> 00:00:52,696
+Just these two.
+
+18
+00:00:53,000 --> 00:00:54,393
+The Sales rows are gone —
+
+19
+00:00:54,900 --> 00:00:58,627
+but Priya and Marcus remain, along
+with the headers and the table itself.
+
+20
+00:00:59,600 --> 00:01:02,189
+Selected rows removed. Table stays.
+
+21
+00:01:06,500 --> 00:01:09,043
+Let's reset to the original four rows.
+
+22
+00:01:09,293 --> 00:01:12,695
+Now the same DELETE — but
+notice: no WHERE clause.
+
+23
+00:01:12,944 --> 00:01:15,080
+No filter means every row matches.
+
+24
+00:01:15,500 --> 00:01:18,031
+Run it… and all four rows are removed.
+
+25
+00:01:18,500 --> 00:01:21,228
+But look: the Employees table is still here.
+
+26
+00:01:21,700 --> 00:01:26,181
+Its name, its columns, its
+structure — all intact. Just empty.
+
+27
+00:01:26,431 --> 00:01:32,642
+So before running destructive SQL, check: is there
+a WHERE clause, and does it match what you intend?
+
+28
+00:01:33,300 --> 00:01:35,738
+One more reset, back to four rows.
+
+29
+00:01:35,988 --> 00:01:38,345
+This time: DROP TABLE Employees.
+
+30
+00:01:38,600 --> 00:01:39,993
+Watch what happens.
+
+31
+00:01:40,243 --> 00:01:41,243
+The rows go…
+
+32
+00:01:41,500 --> 00:01:42,500
+the headers go…
+
+33
+00:01:43,000 --> 00:01:44,498
+the table itself is gone.
+
+34
+00:01:44,800 --> 00:01:47,018
+There is no Employees table anymore.
+
+35
+00:01:47,268 --> 00:01:51,726
+Back to our cabinet: DELETE removes
+the contents, and the cabinet stays.
+
+36
+00:01:51,976 --> 00:01:54,101
+DROP removes the cabinet itself.
+
+37
+00:01:54,400 --> 00:01:55,400
+Quick quiz.
+
+38
+00:01:55,800 --> 00:01:59,132
+Remove only employees
+in Sales. Which command?
+
+39
+00:02:01,000 --> 00:02:02,672
+DELETE, with a WHERE clause.
+
+40
+00:02:03,000 --> 00:02:04,811
+Rows filtered, table kept.
+
+41
+00:02:05,400 --> 00:02:09,138
+Next: remove the Employees
+table itself. Which command?
+
+42
+00:02:11,300 --> 00:02:12,300
+DROP TABLE.
+
+43
+00:02:12,600 --> 00:02:14,086
+The whole table is gone.
+
+44
+00:02:17,600 --> 00:02:21,489
+So remember: DELETE removes
+rows, and the table remains.
+
+45
+00:02:21,739 --> 00:02:24,165
+DROP TABLE removes the table entirely.
+
+46
+00:02:24,416 --> 00:02:27,644
+DELETE clears the contents.
+DROP removes the container.

@@ -1,0 +1,370 @@
+[
+  {
+    "id": "s1a",
+    "scene": "hook",
+    "file": "narration/s1a.wav",
+    "start": 0.6,
+    "duration": 2.45,
+    "text": "Want to remove something from your database?"
+  },
+  {
+    "id": "s1b",
+    "scene": "hook",
+    "file": "narration/s1b.wav",
+    "start": 3.3,
+    "duration": 3.088,
+    "text": "These two commands can leave you with very different results."
+  },
+  {
+    "id": "s1c",
+    "scene": "hook",
+    "file": "narration/s1c.wav",
+    "start": 6.638,
+    "duration": 1.324,
+    "text": "DELETE\u2026 and DROP."
+  },
+  {
+    "id": "s1d",
+    "scene": "hook",
+    "file": "narration/s1d.wav",
+    "start": 8.3,
+    "duration": 2.624,
+    "text": "One of them keeps your table. The other one doesn't."
+  },
+  {
+    "id": "s1e",
+    "scene": "hook",
+    "file": "narration/s1e.wav",
+    "start": 11.2,
+    "duration": 1.556,
+    "text": "Let's see which is which."
+  },
+  {
+    "id": "s2a",
+    "scene": "build",
+    "file": "narration/s2a.wav",
+    "start": 13.6,
+    "duration": 1.834,
+    "text": "Here's a small Employees table."
+  },
+  {
+    "id": "s2b",
+    "scene": "build",
+    "file": "narration/s2b.wav",
+    "start": 15.8,
+    "duration": 5.7,
+    "text": "First, CREATE TABLE builds the structure: three columns \u2014 id, name, and department."
+  },
+  {
+    "id": "s2c",
+    "scene": "build",
+    "file": "narration/s2c.wav",
+    "start": 21.9,
+    "duration": 2.844,
+    "text": "Think of it as an empty cabinet with labeled slots."
+  },
+  {
+    "id": "s2d",
+    "scene": "build",
+    "file": "narration/s2d.wav",
+    "start": 25.0,
+    "duration": 4.052,
+    "text": "Then INSERT adds the rows: four employees, two of them in Sales."
+  },
+  {
+    "id": "s2e",
+    "scene": "build",
+    "file": "narration/s2e.wav",
+    "start": 29.302,
+    "duration": 4.76,
+    "text": "Two separate things, then: the table's structure, and the rows stored inside it."
+  },
+  {
+    "id": "s3a",
+    "scene": "deleteWhere",
+    "file": "narration/s3a.wav",
+    "start": 34.5,
+    "duration": 2.461,
+    "text": "Let's remove only the Sales employees."
+  },
+  {
+    "id": "s3b",
+    "scene": "deleteWhere",
+    "file": "narration/s3b.wav",
+    "start": 37.211,
+    "duration": 3.367,
+    "text": "DELETE FROM Employees, WHERE department equals 'Sales'."
+  },
+  {
+    "id": "s3c",
+    "scene": "deleteWhere",
+    "file": "narration/s3c.wav",
+    "start": 40.828,
+    "duration": 1.788,
+    "text": "The WHERE clause is the filter."
+  },
+  {
+    "id": "s3d",
+    "scene": "deleteWhere",
+    "file": "narration/s3d.wav",
+    "start": 43.0,
+    "duration": 2.415,
+    "text": "The database checks each row's department\u2026"
+  },
+  {
+    "id": "s3e",
+    "scene": "deleteWhere",
+    "file": "narration/s3e.wav",
+    "start": 45.665,
+    "duration": 1.881,
+    "text": "and marks the ones that match."
+  },
+  {
+    "id": "s3f",
+    "scene": "deleteWhere",
+    "file": "narration/s3f.wav",
+    "start": 47.9,
+    "duration": 1.509,
+    "text": "So which rows will go?"
+  },
+  {
+    "id": "s3g",
+    "scene": "deleteWhere",
+    "file": "narration/s3g.wav",
+    "start": 51.5,
+    "duration": 1.196,
+    "text": "Just these two."
+  },
+  {
+    "id": "s3h",
+    "scene": "deleteWhere",
+    "file": "narration/s3h.wav",
+    "start": 53.0,
+    "duration": 1.393,
+    "text": "The Sales rows are gone \u2014"
+  },
+  {
+    "id": "s3i",
+    "scene": "deleteWhere",
+    "file": "narration/s3i.wav",
+    "start": 54.9,
+    "duration": 3.727,
+    "text": "but Priya and Marcus remain, along with the headers and the table itself."
+  },
+  {
+    "id": "s3j",
+    "scene": "deleteWhere",
+    "file": "narration/s3j.wav",
+    "start": 59.6,
+    "duration": 2.589,
+    "text": "Selected rows removed. Table stays."
+  },
+  {
+    "id": "s4a",
+    "scene": "deleteAll",
+    "file": "narration/s4a.wav",
+    "start": 66.5,
+    "duration": 2.543,
+    "text": "Let's reset to the original four rows."
+  },
+  {
+    "id": "s4b",
+    "scene": "deleteAll",
+    "file": "narration/s4b.wav",
+    "start": 69.293,
+    "duration": 3.402,
+    "text": "Now the same DELETE \u2014 but notice: no WHERE clause."
+  },
+  {
+    "id": "s4c",
+    "scene": "deleteAll",
+    "file": "narration/s4c.wav",
+    "start": 72.944,
+    "duration": 2.136,
+    "text": "No filter means every row matches."
+  },
+  {
+    "id": "s4d",
+    "scene": "deleteAll",
+    "file": "narration/s4d.wav",
+    "start": 75.5,
+    "duration": 2.531,
+    "text": "Run it\u2026 and all four rows are removed."
+  },
+  {
+    "id": "s4e",
+    "scene": "deleteAll",
+    "file": "narration/s4e.wav",
+    "start": 78.5,
+    "duration": 2.728,
+    "text": "But look: the Employees table is still here."
+  },
+  {
+    "id": "s4f",
+    "scene": "deleteAll",
+    "file": "narration/s4f.wav",
+    "start": 81.7,
+    "duration": 4.481,
+    "text": "Its name, its columns, its structure \u2014 all intact. Just empty."
+  },
+  {
+    "id": "s4g",
+    "scene": "deleteAll",
+    "file": "narration/s4g.wav",
+    "start": 86.431,
+    "duration": 6.211,
+    "text": "So before running destructive SQL, check: is there a WHERE clause, and does it match what you intend?"
+  },
+  {
+    "id": "s5a",
+    "scene": "drop",
+    "file": "narration/s5a.wav",
+    "start": 93.3,
+    "duration": 2.438,
+    "text": "One more reset, back to four rows."
+  },
+  {
+    "id": "s5b",
+    "scene": "drop",
+    "file": "narration/s5b.wav",
+    "start": 95.988,
+    "duration": 2.357,
+    "text": "This time: DROP TABLE Employees."
+  },
+  {
+    "id": "s5c",
+    "scene": "drop",
+    "file": "narration/s5c.wav",
+    "start": 98.6,
+    "duration": 1.393,
+    "text": "Watch what happens."
+  },
+  {
+    "id": "s5d",
+    "scene": "drop",
+    "file": "narration/s5d.wav",
+    "start": 100.243,
+    "duration": 0.952,
+    "text": "The rows go\u2026"
+  },
+  {
+    "id": "s5e",
+    "scene": "drop",
+    "file": "narration/s5e.wav",
+    "start": 101.5,
+    "duration": 0.964,
+    "text": "the headers go\u2026"
+  },
+  {
+    "id": "s5f",
+    "scene": "drop",
+    "file": "narration/s5f.wav",
+    "start": 103.0,
+    "duration": 1.498,
+    "text": "the table itself is gone."
+  },
+  {
+    "id": "s5g",
+    "scene": "drop",
+    "file": "narration/s5g.wav",
+    "start": 104.8,
+    "duration": 2.218,
+    "text": "There is no Employees table anymore."
+  },
+  {
+    "id": "s5h",
+    "scene": "drop",
+    "file": "narration/s5h.wav",
+    "start": 107.268,
+    "duration": 4.458,
+    "text": "Back to our cabinet: DELETE removes the contents, and the cabinet stays."
+  },
+  {
+    "id": "s5i",
+    "scene": "drop",
+    "file": "narration/s5i.wav",
+    "start": 111.976,
+    "duration": 2.125,
+    "text": "DROP removes the cabinet itself."
+  },
+  {
+    "id": "s6a",
+    "scene": "quiz",
+    "file": "narration/s6a.wav",
+    "start": 114.4,
+    "duration": 0.848,
+    "text": "Quick quiz."
+  },
+  {
+    "id": "s6b",
+    "scene": "quiz",
+    "file": "narration/s6b.wav",
+    "start": 115.8,
+    "duration": 3.332,
+    "text": "Remove only employees in Sales. Which command?"
+  },
+  {
+    "id": "s6c",
+    "scene": "quiz",
+    "file": "narration/s6c.wav",
+    "start": 121.0,
+    "duration": 1.672,
+    "text": "DELETE, with a WHERE clause."
+  },
+  {
+    "id": "s6d",
+    "scene": "quiz",
+    "file": "narration/s6d.wav",
+    "start": 123.0,
+    "duration": 1.811,
+    "text": "Rows filtered, table kept."
+  },
+  {
+    "id": "s6e",
+    "scene": "quiz",
+    "file": "narration/s6e.wav",
+    "start": 125.4,
+    "duration": 3.738,
+    "text": "Next: remove the Employees table itself. Which command?"
+  },
+  {
+    "id": "s6f",
+    "scene": "quiz",
+    "file": "narration/s6f.wav",
+    "start": 131.3,
+    "duration": 0.975,
+    "text": "DROP TABLE."
+  },
+  {
+    "id": "s6g",
+    "scene": "quiz",
+    "file": "narration/s6g.wav",
+    "start": 132.6,
+    "duration": 1.486,
+    "text": "The whole table is gone."
+  },
+  {
+    "id": "s7a",
+    "scene": "recap",
+    "file": "narration/s7a.wav",
+    "start": 137.6,
+    "duration": 3.889,
+    "text": "So remember: DELETE removes rows, and the table remains."
+  },
+  {
+    "id": "s7b",
+    "scene": "recap",
+    "file": "narration/s7b.wav",
+    "start": 141.739,
+    "duration": 2.426,
+    "text": "DROP TABLE removes the table entirely."
+  },
+  {
+    "id": "s7c",
+    "scene": "recap",
+    "file": "narration/s7c.wav",
+    "start": 144.416,
+    "duration": 3.228,
+    "text": "DELETE clears the contents. DROP removes the container."
+  }
+]
